@@ -1,14 +1,21 @@
 {
   "resources": [
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":6,},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":5,},
+    {"id":{"name":"obj_background","path":"objects/obj_background/obj_background.yy",},"order":8,},
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"order":4,},
     {"id":{"name":"obj_plate","path":"objects/obj_plate/obj_plate.yy",},"order":0,},
+    {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},"order":7,},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":3,},
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":4,},
     {"id":{"name":"spr_bar","path":"sprites/spr_bar/spr_bar.yy",},"order":1,},
     {"id":{"name":"spr_plate","path":"sprites/spr_plate/spr_plate.yy",},"order":0,},
     {"id":{"name":"obj_point","path":"objects/obj_point/obj_point.yy",},"order":2,},
+    {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":6,},
     {"id":{"name":"obj_bar","path":"objects/obj_bar/obj_bar.yy",},"order":1,},
     {"id":{"name":"spr_point","path":"sprites/spr_point/spr_point.yy",},"order":2,},
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"order":3,},
+    {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},"order":5,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
