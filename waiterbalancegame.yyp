@@ -20,6 +20,7 @@
     {"id":{"name":"tile_collision","path":"tilesets/tile_collision/tile_collision.yy",},"order":0,},
     {"id":{"name":"spr_chair","path":"sprites/spr_chair/spr_chair.yy",},"order":10,},
     {"id":{"name":"promptControl","path":"scripts/promptControl/promptControl.yy",},"order":0,},
+    {"id":{"name":"fnt_money","path":"fonts/fnt_money/fnt_money.yy",},"order":0,},
     {"id":{"name":"spr_bar","path":"sprites/spr_bar/spr_bar.yy",},"order":1,},
     {"id":{"name":"spr_food","path":"sprites/spr_food/spr_food.yy",},"order":12,},
     {"id":{"name":"obj_food_spawner","path":"objects/obj_food_spawner/obj_food_spawner.yy",},"order":14,},

@@ -18,7 +18,7 @@ chairowner = instance_nearest(x, y, obj_chair);
 foodowner = chairowner.owner;
 with(obj_block){
 	if(owner == other.foodowner){
-		global.money += 10;
+		global.money += 15;
 		fell = false;
 		with(owner){served = true;}
 		instance_destroy();
