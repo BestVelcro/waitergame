@@ -10,3 +10,7 @@ food = -1;
 hsp = 0;
 vsp = 0;
 walksp = 4;
+sitting_chair = undefined;
+served = false;
+food_prompt = undefined;
+food_choice = 0;

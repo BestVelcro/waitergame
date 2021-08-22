@@ -9,7 +9,7 @@ var movesides = key_right-key_left;
 var movevertical = key_down-key_up;
 
 hsp = movesides * walksp;
-
+obj_point.offset += movesides*-1;
 vsp = movevertical * walksp;
 
 // Horizontal Collision

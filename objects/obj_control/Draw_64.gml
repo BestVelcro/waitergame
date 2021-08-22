@@ -3,3 +3,4 @@ if surface_exists(surf){
 	var _cameraheight = display_get_gui_height()-display_get_gui_height()/4;
 	draw_surface_stretched(surf,_camerawidth,_cameraheight,display_get_gui_width()/4,display_get_gui_height()/4);
 }
+draw_text(30,30,"Money: "+string(global.money));

@@ -1,1 +1,2 @@
 occupied = false;
+owner = undefined;

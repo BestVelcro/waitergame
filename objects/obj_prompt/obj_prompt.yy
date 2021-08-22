@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_barrel",
-    "path": "sprites/spr_barrel/spr_barrel.yy",
+    "name": "spr_food",
+    "path": "sprites/spr_food/spr_food.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_barrel",
+  "name": "obj_prompt",
   "tags": [],
   "resourceType": "GMObject",
 }
