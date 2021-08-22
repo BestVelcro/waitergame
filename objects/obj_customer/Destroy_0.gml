@@ -1,0 +1,3 @@
+with(chair){
+	occupied = false;
+}
