@@ -12,8 +12,8 @@ if(x == chair.x) and (y == chair.y) and (!pedido){
 	sitting_chair = instance_nearest(x,y,obj_chair);
 	sitting_chair.owner = id;
 	food = instance_create_layer(x,y,"Instances",obj_food);
-	food.x = irandom_range(obj_food_spawner.x-sprite_width/2,obj_food_spawner.x+sprite_width/2);
-	food.y = irandom_range(obj_food_spawner.y-sprite_height/2,obj_food_spawner.y+sprite_height/2);
+	food.x = irandom_range(obj_food_spawner.x-sprite_width/4,obj_food_spawner.x+sprite_width/4);
+	food.y = irandom_range(obj_food_spawner.y-sprite_height/4,obj_food_spawner.y+sprite_height/4);
 	with(food){
 		owner = other.id;
 		image_index = irandom(obj_food.image_number-1);
