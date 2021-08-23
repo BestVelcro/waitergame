@@ -26,15 +26,3 @@ if(tilemap_get_at_pixel(collisionMap,bbox_left,bbox_side+vsp) != 0) or (tilemap_
 }
 y = y + vsp;
 depth =-y;
-
-// Animations
-if(sign(vsp) != 0){
-	if(sign(vsp) > 0) sprite_index = spr_player_moving_down; else sprite_index = spr_player_moving_up;
-}
-if(sign(hsp) != 0){
-	sprite_index = spr_player_moving_horizontal;
-	image_xscale = sign(hsp);
-}
-if(sign(hsp) == 0 and sign(vsp) == 0){
-	sprite_index = spr_player_idle;
-}
