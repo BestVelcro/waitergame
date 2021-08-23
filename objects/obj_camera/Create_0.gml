@@ -1,5 +1,5 @@
-view_width = 320;
-view_height = 240;
+view_width = 480;
+view_height = 360;
 cwidth = view_width;
 cheight = view_height;
 while(cwidth < display_get_width() or cheight < display_get_height()){

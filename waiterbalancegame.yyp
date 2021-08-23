@@ -1,10 +1,12 @@
 {
   "resources": [
+    {"id":{"name":"spr_hand_plate","path":"sprites/spr_hand_plate/spr_hand_plate.yy",},"order":18,},
     {"id":{"name":"spr_customer","path":"sprites/spr_customer/spr_customer.yy",},"order":11,},
     {"id":{"name":"obj_balcony","path":"objects/obj_balcony/obj_balcony.yy",},"order":15,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":6,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":5,},
     {"id":{"name":"obj_background","path":"objects/obj_background/obj_background.yy",},"order":8,},
+    {"id":{"name":"obj_hand_plate","path":"objects/obj_hand_plate/obj_hand_plate.yy",},"order":17,},
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"order":4,},
     {"id":{"name":"obj_customer","path":"objects/obj_customer/obj_customer.yy",},"order":12,},
     {"id":{"name":"obj_plate","path":"objects/obj_plate/obj_plate.yy",},"order":0,},

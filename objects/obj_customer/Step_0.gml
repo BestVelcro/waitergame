@@ -12,8 +12,8 @@ if(x == chair.x) and (y == chair.y) and (!pedido){
 	sitting_chair = instance_nearest(x,y,obj_chair);
 	sitting_chair.owner = id;
 	food = instance_create_layer(x,y,"Instances",obj_food);
-	food.x = irandom_range(obj_food_spawner.x-sprite_width/2,obj_food_spawner.x+sprite_width/2);
-	food.y = irandom_range(obj_food_spawner.y-sprite_height/2,obj_food_spawner.y+sprite_height/2);
+	food.x = irandom_range(obj_food_spawner.x-obj_food_spawner.sprite_width,obj_food_spawner.x+obj_food_spawner.sprite_width);
+	food.y = irandom_range(obj_food_spawner.y-obj_food_spawner.sprite_height,obj_food_spawner.y+obj_food_spawner.sprite_height);
 	with(food){
 		owner = other.id;
 		image_index = irandom(obj_food.image_number-1);
@@ -30,7 +30,7 @@ if(!dontdraw) && (!pacience){
 	pacience = true;
 }
 
-if(dontdraw == false) && (time <= 0){
+if(!dontdraw) && (time <= 0){
 	global.money -= 20;
 	served = true;
 	dontdraw = true;
@@ -47,6 +47,7 @@ if(dontdraw == false) && (time <= 0){
 }
 
 if(served) and (y != obj_spawner.y){
+	dontdraw = true;
 	if(instance_exists(food_prompt)) instance_destroy(food_prompt);
 	vsp = sign(obj_spawner.y-y)*walksp;
 	y = y+vsp;
