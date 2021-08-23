@@ -9,7 +9,6 @@ var movesides = key_right-key_left;
 var movevertical = key_down-key_up;
 
 hsp = movesides * walksp;
-obj_point.offset += movesides*-1;
 vsp = movevertical * walksp;
 
 // Horizontal Collision
@@ -26,3 +25,16 @@ if(tilemap_get_at_pixel(collisionMap,bbox_left,bbox_side+vsp) != 0) or (tilemap_
 }
 y = y + vsp;
 depth =-y;
+obj_point.offset += sign(hsp)*-1;
+
+// Animations
+if(sign(vsp) != 0){
+	if(sign(vsp) > 0) sprite_index = spr_player_moving_down; else sprite_index = spr_player_moving_up;
+}
+if(sign(hsp) != 0){
+	sprite_index = spr_player_moving_horizontal;
+	image_xscale = sign(hsp);
+}
+if(sign(hsp) == 0 and sign(vsp) == 0){
+	sprite_index = spr_player_idle;
+} 

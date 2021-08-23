@@ -20,7 +20,7 @@ with(obj_block){
 	if(owner == other.foodowner){
 		global.money += 15;
 		fell = false;
-		with(owner){served = true;}
+		with(owner){dontdraw = true;served = true;}
 		instance_destroy();
 	}
 }
